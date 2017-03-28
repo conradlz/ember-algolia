@@ -1,6 +1,6 @@
 # ember-algolia
 
-This README outlines the details of collaborating on this Ember addon.
+This is a work in progress addon for integrating algolia search via javascript into ember apps.
 
 ## Installation
 
