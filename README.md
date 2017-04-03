@@ -91,6 +91,17 @@ module.exports = function(environment) {
     });
 ```
 
+##Fastboot Support
+
+This addon also supports [ember-cli-fastboot](https://github.com/ember-fastboot/ember-cli-fastboot) by using the node version of ember algolia as well as the browserified version. In order to make sure it works in fastboot, you will need:
+
+```
+// algolia-using-app/config/enviroment.js
+  "fastbootDependencies": [
+    "algoliasearch"
+  ]
+```
+
 ## Installation
 
 * `ember install ember-algolia`

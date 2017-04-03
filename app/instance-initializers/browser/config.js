@@ -1,9 +1,8 @@
 import Ember from 'ember';
-import config from '../config/environment';
+import config from '../../config/environment';
 import algoliasearch from 'npm:algoliasearch';
 
 const { merge, set } = Ember;
-
 
 export function initialize( appInstance ) {
   const service = appInstance.lookup('service:algolia');
