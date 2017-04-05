@@ -15,7 +15,7 @@ module.exports = {
   included(app) {
     this._super.included.apply(this, arguments);
 
-    if (isFastBoot) {
+    if (isFastBoot()) {
       let host = this._findHost();
       this.importFastBootDependencies(host);
     }
@@ -27,7 +27,7 @@ module.exports = {
       trees.push(vendorTree);
     }
 
-    if (isFastBoot) {
+    if (isFastBoot()) {
       trees.push(funnel(path.join(__dirname, './assets'), {
         files: ['algoliasearch.js']
       }));

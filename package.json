@@ -1,6 +1,6 @@
 {
   "name": "ember-algolia",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ember Addon for using algolia search.",
   "keywords": [
     "ember-addon",
