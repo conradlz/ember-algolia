@@ -16,7 +16,7 @@ It includes a service called algolia which exposes 3 methods of using algolia se
    - **callback** is the function if there are parameters specified
 
  * *accessIndex(IndexName)*
-   - indexName is the index you would like to access
+   - **indexName** is the index you would like to access
    - returns the index and if used multiple times doesn't recreate the index
 
 ## Configuration
@@ -91,7 +91,7 @@ module.exports = function(environment) {
     });
 ```
 
-##Fastboot Support
+## Fastboot Support
 
 This addon also supports [ember-cli-fastboot](https://github.com/ember-fastboot/ember-cli-fastboot) by using the node version of ember algolia as well as the browserified version. In order to make sure it works in fastboot, you will need:
 
