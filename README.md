@@ -1,6 +1,6 @@
 # ember-algolia
 
-This is an addon for integrating [Algolia | Hosted cloud search as a service](www.algolia.com) via javascript into ember.
+This is an addon for integrating [Algolia | Hosted cloud search as a service](https://www.algolia.com) via javascript into ember.
 
 It includes a service called algolia which exposes 3 methods of using algolia search.
 
