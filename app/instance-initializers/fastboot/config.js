@@ -8,7 +8,6 @@ export function initialize( appInstance ) {
   let algoliaConfig = config['ember-algolia'];
 
   set(service, 'client', algoliasearch(algoliaConfig.algoliaId, algoliaConfig.algoliaKey));
-  set(service, 'indices', new Ember.Object());
 
 }
 
