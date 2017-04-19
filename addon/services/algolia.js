@@ -33,5 +33,9 @@ export default Ember.Service.extend({
     if (!this.get('indices').get(IndexName))
       this.get('indices').set(IndexName, this.get('client').initIndex(IndexName));
     return this.get('indices').get(IndexName);
+  },
+  init() {
+    this._super(...arguments);
+    this.set('indices', new Ember.Object({}));
   }
 });
