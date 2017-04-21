@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import config from '../../config/environment';
 
-const { merge, set } = Ember;
+const { set } = Ember;
 
 export function initialize( appInstance ) {
   const service = appInstance.lookup('service:algolia');
@@ -12,6 +12,6 @@ export function initialize( appInstance ) {
 }
 
 export default {
-  name: 'config',
+  name: 'algolia-config',
   initialize
 };
