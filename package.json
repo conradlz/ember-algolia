@@ -1,6 +1,6 @@
 {
   "name": "ember-algolia",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Ember Addon for using algolia search.",
   "keywords": [
     "ember-addon",
@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "broccoli-funnel": "^1.1.0",
-    "ember-cli-babel": "^5.1.7"
+    "ember-cli-babel": "^5.1.7",
+    "rsvp": "^4.0.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
