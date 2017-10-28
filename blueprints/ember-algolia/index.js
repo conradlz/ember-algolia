@@ -1,6 +1,6 @@
 /* eslint-env node */
 
-let RSVP = require('rsvp');
+const RSVP = require('rsvp');
 
 module.exports = {
   description: '',
