@@ -1,6 +1,8 @@
+import EmberObject from '@ember/object';
+import Service from '@ember/service';
 import Ember from 'ember';
 
-export default Ember.Service.extend({
+export default Service.extend({
   search(query, params, callback) {
     if(query) {
       if(Array.isArray(query) && typeof params === 'function') // if multiple indices
@@ -36,6 +38,6 @@ export default Ember.Service.extend({
   },
   init() {
     this._super(...arguments);
-    this.set('indices', new Ember.Object({}));
+    this.set('indices', new EmberObject({}));
   }
 });
